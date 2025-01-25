@@ -7,11 +7,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> names = new ArrayList<>();
 
-        System.out.println("Enter the number of people:");
+        System.out.println("How many people are apart of this event?");
         int numNames = scanner.nextInt();
         scanner.nextLine();
 
-        System.out.println("Enter the list of people:");
+        System.out.println("Please enter their names each on a new line.");
         for(int i = 0; i < numNames; i++){
            String userInput = scanner.nextLine();
            names.add(userInput);
