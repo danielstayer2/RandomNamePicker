@@ -1,11 +1,12 @@
-import java.util.ArrayList;
+import java.util.Set;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
         // Instantiate an object for user input
         Scanner scanner = new Scanner(System.in);
-        ArrayList<String> names = new ArrayList<>();
+        Set<String> names = new HashSet<>();
 
         System.out.println("How many people are apart of this event?");
         int numNames = scanner.nextInt();
